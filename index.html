@@ -1,10 +1,77 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Smartphone E-Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header id="header">
+        <div class="logo-container">
+            <img id="header-img" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfy7I02NRLUnOKpJ1DNg_GKalEsOnKV7Peaw&s" alt="Logo" />
+            <span>Smartphone E-shop</span>
+        </div>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#updates">Contact</a>
+        </nav>
+    </header>
+
+    <section id="features" class="highlights">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Latest Models</h3>
+            <p>We offer the latest models from top smartphone brands. Stay updated with the newest technology and features.</p>
+        </div>
+        <div class="feature">
+            <h3>Competitive Pricing</h3>
+            <p>Get the best deals on smartphones with our competitive pricing and exclusive offers.</p>
+        </div>
+        <div class="feature">
+            <h3>Fast Shipping</h3>
+            <p>Enjoy fast and reliable shipping options to get your smartphone delivered right to your doorstep.</p>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-table">
+            <div class="pricing-card">
+                <h3>Basic Plan</h3>
+                <p>$299</p>
+                <p>Includes basic smartphone features with a 1-year warranty and some credit vouchers.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Standard Plan</h3>
+                <p>$499</p>
+                <p>Includes advanced features with a 2-year warranty and free accessories.</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Premium Plan</h3>
+                <p>$799</p>
+                <p>Includes all premium features with a 3-year warranty and premium support.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="video-box">
+        <div class="video-container">
+            <iframe id="video" src="https://www.youtube.com/watch?v=JkRXhe3KaPE&vl=en" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section id="updates" class="get-updates">
+        <h3>Get Updates</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+            <input id="submit" type="submit" value="Subscribe">
+        </form>
+    </section>
     
 </body>
 </html>
